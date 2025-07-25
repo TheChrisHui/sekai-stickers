@@ -1,6 +1,6 @@
 # Project Sekai Stickers (Fork)
 
-**This is a fork of Project Sekai Stickers(https://github.com/TheOriginalAyaka/sekai-stickers).** with modifications.
+**This is a fork of Project Sekai Stickers(https://github.com/TheOriginalAyaka/sekai-stickers) with modifications.** 
 ## Key Modifications
 - Added Backend Photo Upload Feature
 - Extended frontend with upload UI components
