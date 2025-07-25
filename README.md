@@ -6,9 +6,6 @@
 - Extended frontend with upload UI components
 
 ---
-Here’s a **clear and concise README.md** for your project, including database setup instructions for PostgreSQL:
-
----
 
 # Project Sekai Stickers
 
