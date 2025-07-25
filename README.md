@@ -1,3 +1,89 @@
+# Project Sekai Stickers (Fork)
+
+**This is a fork of Project Sekai Stickers(https://github.com/TheOriginalAyaka/sekai-stickers).** with modifications.
+## Key Modifications
+- Added Backend Photo Upload Feature
+- Extended frontend with upload UI components
+
+---
+Here’s a **clear and concise README.md** for your project, including database setup instructions for PostgreSQL:
+
+---
+
+# Project Sekai Stickers
+
+**Full-stack application with ReactJS + Express.js (Node) + PostgreSQL.**
+
+## Quick Start
+
+### 1. Frontend Setup
+```bash
+cd frontend
+npm install
+npm start  # Runs frontend (e.g., React/Vue)
+```
+
+### 2. Backend Setup
+```bash
+cd backend
+npm install
+npm run dev  # Starts Express server with Nodemon
+```
+
+### 3. Database Setup (PostgreSQL)
+1. Ensure PostgreSQL is installed and running locally.
+2. Create a database (replace `your_db_name`):
+   ```bash
+   psql -U postgres -c "CREATE DATABASE your_db_name;"
+   ```
+3. Import your `.sql` file to create tables:
+   ```bash
+   psql -U postgres -d your_db_name -f path/to/your/file.sql
+   ```
+
+---
+
+##  Configuration
+
+### Environment Variables (`backend/.env`)
+Create a `.env` file in the `backend` directory with:
+```env
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_db_name
+```
+
+*(Replace values with your actual credentials!)*
+
+---
+
+## Project Structure
+```
+my-project/
+├── frontend/        # [React/Vue/etc.]
+├── backend/
+│   ├── server.js    # Express entry point
+│   ├── .env         # PostgreSQL config
+│   └── *.sql        # Database schema
+```
+
+---
+
+## Troubleshooting
+- **PostgreSQL Connection Issues?**  
+  - Verify PostgreSQL is running: `sudo service postgresql status` (Linux/Mac).  
+  - Check credentials in `.env` match your DB setup.  
+
+- **Nodemon Not Working?**  
+  Ensure it’s installed globally or as a dev dependency:  
+  ```bash
+  npm install -g nodemon  # Or `npm install --save-dev nodemon`
+  ```
+
+---
+# Original README
 Note: This app is no longer maintained as I'm working on an upcoming app. Stay tuned for updates!
 ---
 
