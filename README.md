@@ -55,31 +55,6 @@ DB_NAME=your_db_name
 *(Replace values with your actual credentials!)*
 
 ---
-
-## Project Structure
-```
-my-project/
-├── frontend/        # [React/Vue/etc.]
-├── backend/
-│   ├── server.js    # Express entry point
-│   ├── .env         # PostgreSQL config
-│   └── *.sql        # Database schema
-```
-
----
-
-## Troubleshooting
-- **PostgreSQL Connection Issues?**  
-  - Verify PostgreSQL is running: `sudo service postgresql status` (Linux/Mac).  
-  - Check credentials in `.env` match your DB setup.  
-
-- **Nodemon Not Working?**  
-  Ensure it’s installed globally or as a dev dependency:  
-  ```bash
-  npm install -g nodemon  # Or `npm install --save-dev nodemon`
-  ```
-
----
 # Original README
 Note: This app is no longer maintained as I'm working on an upcoming app. Stay tuned for updates!
 ---
