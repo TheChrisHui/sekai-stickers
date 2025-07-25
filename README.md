@@ -17,14 +17,14 @@
 ```bash
 cd frontend
 npm install
-npm start  # Runs frontend (e.g., React/Vue)
+npm start
 ```
 
 ### 2. Backend Setup
 ```bash
 cd backend
 npm install
-npm run dev  # Starts Express server with Nodemon
+npm run dev
 ```
 
 ### 3. Database Setup (PostgreSQL)
